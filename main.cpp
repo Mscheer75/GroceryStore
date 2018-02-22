@@ -17,8 +17,11 @@ int main()
   cin>>input;
 if (input == 'a' || input =='A')
     {
-    cout<<"What is the item?"<<endl;
-         if (numItems > 4)
+    if(numItems <4)
+          {
+          cout<<"What is the item?"<<endl;
+          }
+     if (numItems > 4)
          {
          cout<<"You'll need a bigger list!";
          }

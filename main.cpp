@@ -17,13 +17,13 @@ int main()
   cin>>input;
 if (input == 'a' || input =='A')
     {
+    cout<<"What is the item?"<<endl;
          if (numItems > 4)
          {
          cout<<"You'll need a bigger list!";
-         }else
-         {
-          cout<<"What is the Item?"<<endl;
          }
+         
+         
    for (; numItems <5; numItems++)
              {
                 cin>>list[numItems];

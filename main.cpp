@@ -17,8 +17,6 @@ int main()
   cin>>input;
 if (input == 'a' || input =='A')
     {
-   
-          
           cout<<"What is the item?"<<endl;
           
      if (numItems > 5)
@@ -33,7 +31,7 @@ if (input == 'a' || input =='A')
              }
     }
 
-}while (input != 'q' && input != 'Q');
+}while ((input != 'q' && input != 'Q') || numItems <5 );
 
   return 0;
 }

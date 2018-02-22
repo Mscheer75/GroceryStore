@@ -15,17 +15,16 @@ int main()
   cout<<"\n (Q)uit";
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
-  cout<<"What is the item?"<<endl;
      if ( input == 'a' || input == 'A')
      {
-          
+      cout<<"What is the item?"<< endl;
+      if ( numItems > 4)
+      {
+      cout<<"You'll need a bigger list!";
+      }
         for (; numItems < 5; numItems++)
          {
           cin>>list[numItems];
-          if ( numItems >= 4)
-          {
-          cout<<"You'll need a bigger list!";
-          }
 
  
          }

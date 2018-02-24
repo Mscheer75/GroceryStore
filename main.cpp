@@ -22,18 +22,20 @@ if (input == 'a' || input =='A')
           
      if (numItems > 4)
          {
-         cout<<"You'll need a bigger list!";
+              cout<<"You'll need a bigger list!";
+              numItems++;
          }else
          {
                
-     cin>>item;
-     list[numItems]=item;
-     }
+             cin>>item;
+             list[numItems]=item;
+             numItems++;
+         }
                
     }
-    numItems++;
+   
 
-}while ((input != 'q' && input != 'Q') && numItems < 20 );
+}while ((input != 'q' && input != 'Q') && numItems < 7 );
 
   return 0;
 }

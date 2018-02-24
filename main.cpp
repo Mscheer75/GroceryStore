@@ -8,6 +8,8 @@ int main()
   int numItems = 0;
   char input;
   string item;
+  
+  
   do
   {
   cout<<"\n==GROCERY LIST MANAGER==";
@@ -35,8 +37,7 @@ if (input != 'q' && input !='Q')
      numItems++;
     }
    
-
-}while ((input != 'q' && input != 'Q') || numItems < 6 );
+}while ((input != 'q' && input != 'Q') && numItems < 20);
 
   return 0;
 }

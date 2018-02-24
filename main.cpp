@@ -36,7 +36,7 @@ if (input != 'q' && input !='Q')
     }
    
 
-}while ((input != 'q' && input != 'Q') );
+}while ((input != 'q' && input != 'Q') || numItems < 6 );
 
   return 0;
 }

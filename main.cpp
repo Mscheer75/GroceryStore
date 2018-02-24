@@ -22,7 +22,7 @@ if (input == 'a' || input == 'A')
     {
           cout<<"What is the item?"<<endl;
           
-     if (numItems > 4)
+     if (numItems > 3)
          {
               cout<<"You'll need a bigger list!" <<endl;
               

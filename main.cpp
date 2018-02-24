@@ -21,15 +21,14 @@ int main()
 if (input == 'a' || input == 'A')
     {
           cout<<"What is the item?"<<endl;
-          
-     if (numItems > 3)
+          cin>>item;
+     if (numItems > 4)
          {
               cout<<"You'll need a bigger list!" <<endl;
               
          }else
          {
-               
-             cin>>item;
+              
              list[numItems]=item;
 
          }
@@ -37,7 +36,7 @@ if (input == 'a' || input == 'A')
      numItems++;
     }
    
-}while ((input != 'q' && input != 'Q') && numItems < 8);
+}while ((input != 'q' && input != 'Q') && numItems < 6);
 
   return 0;
 }

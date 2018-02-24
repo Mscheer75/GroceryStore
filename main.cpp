@@ -36,7 +36,7 @@ if (input == 'a' || input == 'A')
      numItems++;
     }
    
-}while ((input != 'q' && input != 'Q') && numItems < 6);
+}while ((input != 'q' && input != 'Q') && numItems < 8);
 
   return 0;
 }

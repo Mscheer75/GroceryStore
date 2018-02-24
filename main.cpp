@@ -37,7 +37,7 @@ if ((input != 'q' && input !='Q') || (input == 'a' || input == 'A'))
      numItems++;
     }
    
-}while ((input != 'q' && input != 'Q') && numItems < 20);
+}while ((input != 'q' && input != 'Q') && numItems < 8);
 
   return 0;
 }

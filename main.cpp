@@ -23,11 +23,12 @@ if (input == 'a' || input =='A')
      if (numItems > 4)
          {
          cout<<"You'll need a bigger list!";
-         }
+         }else
+         {
                
      cin>>item;
      list[numItems]=item;
-     
+     }
                
     }
     numItems++;

@@ -8,7 +8,7 @@ int main()
   int numItems = 0;
   char input;
   string item;
-  
+  int outcount =0;
   
   do
   {
@@ -37,6 +37,12 @@ if (input == 'a' || input == 'A')
     }
    
 }while ((input != 'q' && input != 'Q') && numItems < 8);
+cout <<"==ITEMS TO BUY==" << endl;
+while ( outcount < 5) 
+{
+    cout << outcount + 1 << " " << list[outcount] << endl;
+    outcount++;
+ }
 
   return 0;
 }

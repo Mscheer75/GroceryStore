@@ -12,7 +12,7 @@ int main()
   string item;
   int outcount =0;
   int newSize;
-  
+  int once =0;
   do
   {
       cout<<"\n==GROCERY LIST MANAGER==";
@@ -37,7 +37,12 @@ do
     {
         cout << "No items to buy!" << endl;
     }else
-    {    cout << "==ITEMS TO BUY==" << endl;
+    {   
+    if ( outcount == 0)
+            {
+                 cout << "==ITEMS TO BUY==" << endl;
+            }  
+            
          cout << outcount + 1 << " " << list[outcount] << endl;
          outcount++;
     }

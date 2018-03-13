@@ -31,13 +31,13 @@ int main()
     }
    
   }while ((input != 'q' && input != 'Q'));
-cout <<"==ITEMS TO BUY==" << endl;
+
 do 
 {   if (list.empty())
     {
         cout << "No items to buy!" << endl;
     }else
-    {
+    {    cout << "==ITEMS TO BUY==" << endl;
          cout << outcount + 1 << " " << list[outcount] << endl;
          outcount++;
     }
